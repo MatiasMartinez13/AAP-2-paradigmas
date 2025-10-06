@@ -1,0 +1,16 @@
+{
+  "name": "todolist-ts",
+  "version": "1.0.0",
+  "description": "To-Do List en TypeScript estructurado (sin dependencias externas)",
+  "main": "dist/todolist.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/todolist.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "typescript": "^5.3.3"
+  }
+}
